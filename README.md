@@ -10,8 +10,9 @@ CMD fortune -a | cowsay
 ```
 -----
 ### Instruction
-1. Pull & run the programme - cow will give you a wise advise
-`$ docker run misaogura/wise-cowsay`
+1. [Download & install Docker](https://docs.docker.com/engine/getstarted/step_one/#step-1-get-docker)
+ 
+2. Pull & run the programme - cow will give you a wise advise : `$ docker run misaogura/wise-cowsay`
 ```
   _________________________________________
 / "Lines that are parallel meet at        \
@@ -31,8 +32,7 @@ CMD fortune -a | cowsay
                 ||     ||
 ```
 
-2. Try again for some more wise insights
-`$ docker run misaogura/wise-cowsay`
+3. Try again for some more wise insights : `$ docker run misaogura/wise-cowsay`
 
 ```
  ________________________________________
